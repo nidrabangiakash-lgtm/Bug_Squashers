@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Where is My Bus - Profile</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 text-gray-800 font-sans">
+
+  <!-- Container -->
+  <div class="max-w-md mx-auto p-4">
+
+    <!-- Profile Card -->
+    <div class="bg-white rounded-xl shadow p-4 text-center">
+      <div class="bg-gradient-to-r from-blue-400 to-blue-500 rounded-xl p-6 text-white">
+        <div class="w-16 h-16 mx-auto bg-white rounded-full flex items-center justify-center text-blue-500 text-3xl">
+          <span>👤</span>
+        </div>
+        <h2 class="text-lg font-semibold mt-3">Bhargavi Dharmapu</h2>
+        <p class="text-sm">bhargavidharmapu0210@gmail.com</p>
+        <span class="text-xs bg-white text-blue-500 px-2 py-1 mt-2 rounded-full inline-block">🟢 Active</span>
+      </div>
+    </div>
+
+    <!-- Favorite Routes -->
+    <div class="bg-white mt-4 rounded-xl shadow p-4 flex items-center justify-between">
+      <div class="flex items-center space-x-2">
+        <span class="text-blue-500 text-2xl">💙</span>
+        <div>
+          <p class="text-sm font-semibold">Favorite Routes</p>
+          <p class="text-sm text-gray-500">0</p>
+        </div>
+      </div>
+      <span class="text-gray-400">❤</span>
+    </div>
+
+    <!-- Bottom Navigation -->
+    <div class="bg-white mt-4 rounded-xl shadow p-4 flex justify-around text-blue-500 text-sm">
+      <div class="flex flex-col items-center"><span>🏠</span><span>Home</span></div>
+      <div class="flex flex-col items-center"><span>🚌</span><span>Routes</span></div>
+      <div class="flex flex-col items-center"><span>🔔</span><span>Notifications</span></div>
+      <div class="flex flex-col items-center text-blue-700 font-semibold"><span>👤</span><span>Profile</span></div>
+    </div>
+
+    <!-- Trips Tracked -->
+    <div class="bg-white mt-4 rounded-xl shadow p-4 flex items-center justify-between">
+      <div class="flex items-center space-x-2">
+        <span class="text-blue-500 text-2xl">📍</span>
+        <div>
+          <p class="text-sm font-semibold">Trips Tracked</p>
+          <p class="text-sm text-gray-500">0</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Notifications Status -->
+    <div class="bg-white mt-4 rounded-xl shadow p-4 flex items-center justify-between">
+      <div class="flex items-center space-x-2">
+        <span class="text-blue-500 text-2xl">🔔</span>
+        <div>
+          <p class="text-sm font-semibold">Notifications</p>
+          <p class="text-sm text-gray-500">OFF</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Enable Notifications Toggle -->
+    <div class="bg-white mt-4 rounded-xl shadow p-4">
+      <h3 class="text-sm font-semibold mb-2">🔔 Notifications</h3>
+      <div class="flex items-center justify-between">
+        <span class="text-sm">Enable Notifications</span>
+        <label class="inline-flex relative items-center cursor-pointer">
+          <input type="checkbox" value="" class="sr-only peer" checked>
+          <div class="w-11 h-6 bg-gray-200 rounded-full peer peer-checked:bg-blue-500 peer-focus:ring-2 peer-focus:ring-blue-300"></div>
+        </label>
+      </div>
+    </div>
+
+    <!-- Theme Color -->
+    <div class="bg-white mt-4 rounded-xl shadow p-4">
+      <h3 class="text-sm font-semibold mb-3">🎨 Theme Color</h3>
+      <div class="grid grid-cols-4 gap-2">
+        <div class="w-8 h-8 bg-blue-500 rounded-full border-4 border-black"></div>
+        <div class="w-8 h-8 bg-pink-500 rounded-full"></div>
+        <div class="w-8 h-8 bg-green-500 rounded-full"></div>
+        <div class="w-8 h-8 bg-purple-500 rounded-full"></div>
+        <div class="w-8 h-8 bg-orange-500 rounded-full"></div>
+        <div class="w-8 h-8 bg-cyan-500 rounded-full"></div>
+        <div class="w-8 h-8 bg-indigo-500 rounded-full"></div>
+        <div class="w-8 h-8 bg-red-500 rounded-full"></div>
+      </div>
+      <p class="mt-2 text-xs text-gray-500">Selected: Sky Blue</p>
+    </div>
+
+    <!-- Logout Button -->
+    <div class="bg-white mt-4 rounded-xl shadow p-4 text-center">
+      <button class="w-full bg-red-500 text-white py-2 rounded-lg hover:bg-red-600 transition">🚪 Logout from Account</button>
+    </div>
+
+    <!-- Footer -->
+    <div class="text-center text-xs text-gray-400 mt-6">
+      <p>Where is My Bus v1.0</p>
+      <p>Made with ❤ for better commutes</p>
+    </div>
+  </div>
+</body>
+</html>
