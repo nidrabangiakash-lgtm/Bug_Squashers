@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My App</title>
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+    <!-- Header Component -->
+    <script src="components/header.js"></script>
+
+    <!-- Navigation -->
+    <nav>
+        <ul>
+            <li><a href="pages/home.html" target="content-frame">Home</a></li>
+            <li><a href="pages/map.html" target="content-frame">Map</a></li>
+            <li><a href="pages/notifications.html" target="content-frame">Notifications</a></li>
+            <li><a href="pages/routes.html" target="content-frame">Routes</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Content Frame -->
+    <iframe name="content-frame" src="pages/home.html" style="width:100%; height:80vh; border:none;"></iframe>
+
+    <!-- Components Scripts -->
+    <script src="components/map/map.js"></script>
+    <script src="components/notifications/notifications.js"></script>
+    <script src="components/routes/routes.js"></script>
+
+    <!-- Entities Scripts -->
+    <script src="entities/user.js"></script>
+    <script src="entities/bus.js"></script>
+    <script src="entities/route.js"></script>
+
+    <!-- Main JS -->
+    <script src="assets/script.js"></script>
+
+    <!-- Footer Component -->
+    <script src="components/footer.js"></script>
+</body>
+</html>
