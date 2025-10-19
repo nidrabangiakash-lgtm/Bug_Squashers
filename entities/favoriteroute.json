@@ -1,0 +1,23 @@
+{
+  "name": "FavoriteRoute",
+  "type": "object",
+  "properties": {
+    "route_id": {
+      "type": "string",
+      "description": "ID of the bus route"
+    },
+    "route_number": {
+      "type": "string",
+      "description": "Route number for quick reference"
+    },
+    "user_email": {
+      "type": "string",
+      "description": "Email of the user who favorited this route"
+    }
+  },
+  "required": [
+    "route_id",
+    "route_number",
+    "user_email"
+  ]
+}
